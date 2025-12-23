@@ -77,8 +77,6 @@ cask 'font-open-sans'
 cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
 cask "font-hack-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
@@ -110,7 +108,6 @@ cask "phpmon"
 cask "podman-desktop"
 cask "prettyclean"
 cask "proxyman"
-cask "r-app"
 cask "raycast"
 cask "rectangle-pro"
 cask "sequel-ace"

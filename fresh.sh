@@ -38,12 +38,7 @@ brew bundle --file ./Brewfile
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Create a projects directories
-mkdir $HOME/Code
 mkdir $HOME/Herd
-
-# Create Code subdirectories
-mkdir $HOME/Code/blade-ui-kit
-mkdir $HOME/Code/laravel
 
 # Clone Github repositories
 ./clone.sh
