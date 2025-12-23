@@ -14,7 +14,6 @@ alias kubectx='kubectl config use-context'
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias projects="cd $HOME/Projects"
-alias herd="cd $HOME/Herd"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"

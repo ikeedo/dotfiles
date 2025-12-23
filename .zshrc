@@ -78,7 +78,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(aliases git brew)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -150,3 +150,15 @@ export HERD_PHP_85_INI_SCAN_DIR="/Users/driesvints/Library/Application Support/H
 
 eval "$(oh-my-posh init zsh)"
 # eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/craver.omp.json)"
+
+
+# Herd injected PHP binary.
+export PATH="/Users/schoolcraft/Library/Application Support/Herd/bin/":$PATH
+
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/schoolcraft/Library/Application Support/Herd/config/php/84/"
+
+
+# Herd injected PHP 8.5 configuration.
+export HERD_PHP_85_INI_SCAN_DIR="/Users/schoolcraft/Library/Application Support/Herd/config/php/85/"

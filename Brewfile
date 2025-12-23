@@ -1,6 +1,4 @@
 # Taps
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap "cloudfleetai/tap"
 tap "ddev/ddev"
 tap "go-task/tap"
@@ -104,7 +102,6 @@ cask "openemu"
 cask "opera"
 cask "orbstack"
 cask "orion"
-cask "phpmon"
 cask "podman-desktop"
 cask "prettyclean"
 cask "proxyman"
@@ -122,8 +119,3 @@ cask "upscayl"
 cask 'visual-studio-code'
 cask "whatsapp"
 cask "whisky"
-
-# Mac App Store
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
