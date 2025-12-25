@@ -16,7 +16,7 @@ export MNML_RPROMPT=('mnml_cwd 20')
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="minimal"
+ZSH_THEME="clean"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -78,7 +78,26 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aliases git brew zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(
+    aliases 
+    common-aliases 
+    encode64 
+    git 
+    gitfast 
+    git-flow-avh 
+    git-prompt 
+    helm 
+    httpie 
+    iterm2 
+    kubectl 
+    kubectx 
+    last-working-dir 
+    macos 
+    themes 
+    zsh-autosuggestions 
+    zsh-syntax-highlighting 
+    colored-man-pages
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -148,8 +167,9 @@ export HERD_PHP_84_INI_SCAN_DIR="/Users/driesvints/Library/Application Support/H
 # Herd injected PHP 8.5 configuration.
 export HERD_PHP_85_INI_SCAN_DIR="/Users/driesvints/Library/Application Support/Herd/config/php/85/"
 
-eval "$(oh-my-posh init zsh)"
+# eval "$(oh-my-posh init zsh)"
 # eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/craver.omp.json)"
+eval "$(oh-my-posh init zsh --config https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/cobalt2.omp.json)"
 
 
 # Herd injected PHP binary.
