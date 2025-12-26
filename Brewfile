@@ -5,40 +5,46 @@ tap "go-task/tap"
 tap "jesseduffield/lazygit"
 
 # Binaries
-brew 'awscli'
-brew 'bash' # Latest Bash version
-brew 'bat' # Used for spatie/visit
+brew "awscli"
+brew "bash" # Latest Bash version
+brew "bat" # Used for spatie/visit
 brew "curl"
-brew 'coreutils' # Those that come with macOS are outdated
-brew 'eza'
-brew 'ffmpeg'
-brew 'gh'
-brew 'git'
+brew "coreutils" # Those that come with macOS are outdated
+brew "eza"
+brew "ffmpeg"
+brew "gh"
+brew "git"
 brew "gtk+3"
-brew 'grep'
+brew "grep"
 brew "hcloud"
 brew "http-server"
 brew "httpd"
-brew 'httpie'
-brew 'jq' # Used for spatie/visit
+brew "httpie"
+brew "jandedobbeleer/oh-my-posh/oh-my-posh"
+brew "jq" # Used for spatie/visit
 brew "kubernetes-cli"
 brew "lazygit"
-brew 'mackup'
-brew 'mas' # Mac App Store manager
+brew "mackup"
+brew "mas" # Mac App Store manager
 brew "mkcert"
+brew "mysql"
 brew "ohdear-cli"
 brew "openssl@3"
 brew "pandoc"
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew "pkg-config" # https://github.com/driesvints/dotfiles/issues/20
+brew "postgresql"
+brew "python"
 brew "qrtool"
+brew "redis"
 brew "s3cmd"
 brew "sendme"
 brew "speedtest-cli"
 brew "sqlite"
-brew 'svn' # Needed to install fonts
+brew "svn" # Needed to install fonts
 brew "terraform"
 brew "tmux"
 brew "wget"
+brew "zsh"
 
 # From custom taps
 brew "cloudfleetai/tap/cloudfleet-cli"
@@ -46,14 +52,14 @@ brew "ddev/ddev/ddev"
 brew "go-task/tap/go-task"
 
 # Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
+brew "jpegoptim"
+brew "optipng"
+brew "pngquant"
+brew "svgo"
+brew "gifsicle"
 
 # Development
-brew 'imagemagick'
+brew "imagemagick"
 
 # Apps
 cask "acorn"
@@ -67,14 +73,14 @@ cask "clickup"
 cask "cyberduck"
 cask "devutils"
 cask "enpass"
-cask 'figma'
+cask "figma"
 cask "firefox"
 cask "flycut"
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
+cask "font-lato"
+cask "font-open-sans"
+cask "font-roboto"
+cask "font-source-code-pro-for-powerline"
+cask "font-source-code-pro"
 cask "font-hack-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
@@ -82,7 +88,7 @@ cask "freelens"
 cask "github"
 cask "google-chrome"
 cask "headlamp"
-cask 'helo'
+cask "helo"
 cask "herd"
 cask "hiddenbar"
 cask "httpie-desktop"
@@ -110,12 +116,12 @@ cask "rectangle-pro"
 cask "sequel-ace"
 cask "sf-symbols"
 cask "signal"
-cask 'slack'
+cask "slack"
 cask "tempbox"
 cask "the-unarchiver"
 cask "timescribe"
 cask "tor-browser"
 cask "upscayl"
-cask 'visual-studio-code'
+cask "visual-studio-code"
 cask "whatsapp"
 cask "whisky"
